@@ -42,15 +42,8 @@ export const DATA = {
             },
             LinkedIn: {
                 name: "LinkedIn",
-                url: "https://dub.sh/dillion-linkedin",
+                url: "https://www.linkedin.com/in/zidan-khulul-sajid",
                 icon: Icons.linkedin,
-
-                navbar: true,
-            },
-            X: {
-                name: "X",
-                url: "https://dub.sh/dillion-twitter",
-                icon: Icons.x,
 
                 navbar: true,
             },
@@ -115,7 +108,7 @@ export const DATA = {
             school: "Vocational High School 1 Rongga",
             href: "https://smkn1rongga.sch.id",
             degree: "Software Engineering",
-            logoUrl: "/ib.png",
+            logoUrl: "/logo/smk.png",
             start: "2020",
             end: "2023",
         },
