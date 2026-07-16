@@ -152,7 +152,7 @@ export default function Page() {
                     </div>
                 </div>
             </section>
-            {DATA.showHackatons && (
+            {DATA.showHackathons && (
                 <section id="hackathons">
                     <div className="space-y-12 w-full py-12">
                         <BlurFade delay={BLUR_FADE_DELAY * 13}>
@@ -208,9 +208,23 @@ export default function Page() {
                                 Get in Touch
                             </h2>
                             <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                                Want to chat? Just shoot me a dm{" "}
-                                and I&apos;ll respond whenever I can. I will ignore all
-                                soliciting.
+                                Have a project in mind or want to collaborate? Feel free to
+                                reach out via{" "}
+                                <Link
+                                    href="mailto:zidanreborn@gmail.com"
+                                    className="text-blue-500 hover:underline"
+                                >
+                                    email
+                                </Link>{" "}
+                                or connect with me on{" "}
+                                <Link
+                                    href="https://www.linkedin.com/in/zidan-khulul-sajid"
+                                    target="_blank"
+                                    className="text-blue-500 hover:underline"
+                                >
+                                    LinkedIn
+                                </Link>
+                                . I&apos;m always open to discussing new opportunities.
                             </p>
                         </div>
                     </BlurFade>
